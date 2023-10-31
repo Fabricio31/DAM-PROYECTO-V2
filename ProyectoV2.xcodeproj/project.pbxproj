@@ -18,6 +18,9 @@
 		72E065B12AF0464D00BA04CF /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E065B02AF0464D00BA04CF /* CreateAccountViewController.swift */; };
 		72E065B32AF0518500BA04CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72E065B22AF0518500BA04CF /* GoogleService-Info.plist */; };
 		72E065B62AF053D600BA04CF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 72E065B52AF053D600BA04CF /* FirebaseAuth */; };
+		72E065B82AF070C500BA04CF /* homescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 72E065B72AF070C500BA04CF /* homescreen.png */; };
+		72E065BC2AF077E200BA04CF /* LoginBackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 72E065BB2AF077E200BA04CF /* LoginBackground.jpeg */; };
+		72E065BE2AF0798500BA04CF /* RegisterBackground (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 72E065BD2AF0798500BA04CF /* RegisterBackground (1).jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		72E065AE2AF0431500BA04CF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		72E065B02AF0464D00BA04CF /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		72E065B22AF0518500BA04CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72E065B72AF070C500BA04CF /* homescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homescreen.png; sourceTree = "<group>"; };
+		72E065BB2AF077E200BA04CF /* LoginBackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoginBackground.jpeg; sourceTree = "<group>"; };
+		72E065BD2AF0798500BA04CF /* RegisterBackground (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RegisterBackground (1).jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 				72E065AE2AF0431500BA04CF /* LoginViewController.swift */,
 				72E065B02AF0464D00BA04CF /* CreateAccountViewController.swift */,
 				72E065A32AF031C300BA04CF /* Assets.xcassets */,
+				72E065BB2AF077E200BA04CF /* LoginBackground.jpeg */,
+				72E065B72AF070C500BA04CF /* homescreen.png */,
+				72E065BD2AF0798500BA04CF /* RegisterBackground (1).jpeg */,
 				72E065A52AF031C300BA04CF /* LaunchScreen.storyboard */,
 				72E065A82AF031C300BA04CF /* Info.plist */,
 				72E065A02AF031C300BA04CF /* ProyectoV2.xcdatamodeld */,
@@ -144,10 +153,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72E065B82AF070C500BA04CF /* homescreen.png in Resources */,
+				72E065BC2AF077E200BA04CF /* LoginBackground.jpeg in Resources */,
 				72E065A72AF031C300BA04CF /* LaunchScreen.storyboard in Resources */,
 				72E065B32AF0518500BA04CF /* GoogleService-Info.plist in Resources */,
 				72E065A42AF031C300BA04CF /* Assets.xcassets in Resources */,
 				72E0659F2AF031C300BA04CF /* Main.storyboard in Resources */,
+				72E065BE2AF0798500BA04CF /* RegisterBackground (1).jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
