@@ -156,12 +156,67 @@
                     <connections>
                         <outlet property="emailTextField" destination="zM2-Ae-rak" id="Jyq-yf-Qc9"/>
                         <outlet property="passwordTextField" destination="9i2-XV-rUb" id="MKO-cY-Kpr"/>
-                        <segue destination="La9-eD-83A" kind="show" identifier="goToNext" id="dpH-nV-Fkm"/>
+                        <segue destination="KZI-wx-u2I" kind="show" identifier="goToNext" id="gDt-WV-OCh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="000-Wm-HYe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1160.8695652173915" y="-374.33035714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wEc-My-iOx">
+            <objects>
+                <viewController id="KZI-wx-u2I" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LvV-Kq-u83">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VisualizarBackground.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="KNC-zZ-2gK">
+                                <rect key="frame" x="0.0" y="88" width="414" height="285"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RegistrarBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kdd-d6-QK2">
+                                <rect key="frame" x="0.0" y="445" width="414" height="316"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phB-x4-03V">
+                                <rect key="frame" x="97" y="393" width="229" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Visualizar "/>
+                                <connections>
+                                    <segue destination="dCr-FT-K8M" kind="show" id="bhR-AU-zLS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4F7-Ia-aon">
+                                <rect key="frame" x="121" y="788" width="189" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Registrar"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="139-4B-Cc5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lyK-mj-bxY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TFv-5U-X6Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1949.2753623188407" y="-64.285714285714278"/>
+        </scene>
+        <!--Rest View Controller-->
+        <scene sceneID="cUm-ej-PhH">
+            <objects>
+                <viewController id="dCr-FT-K8M" customClass="RestViewController" customModule="ProyectoV2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b3r-bb-awL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="LPS-vX-sMR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1YC-BF-8id"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z0e-f9-QNF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2752" y="-19"/>
         </scene>
         <!--Create Account View Controller-->
         <scene sceneID="R01-IS-gUL">
@@ -235,27 +290,12 @@
                     <connections>
                         <outlet property="emailTextField" destination="4mf-mh-6yd" id="GTj-ix-VSo"/>
                         <outlet property="passwordTextField" destination="s2X-bT-eKn" id="GAa-Xb-He3"/>
-                        <segue destination="La9-eD-83A" kind="show" identifier="goToNext" id="sjW-oK-STC"/>
+                        <segue destination="KZI-wx-u2I" kind="show" identifier="goToNext" id="5ck-7B-eVv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7iL-uK-ycX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1160.8695652173915" y="268.52678571428572"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="lYR-Zm-vNO">
-            <objects>
-                <viewController id="La9-eD-83A" sceneMemberID="viewController">
-                    <imageView key="view" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12085707_20944201" id="V3L-So-OeX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <rect key="contentStretch" x="0.0" y="0.0" width="0.050000000000000003" height="1"/>
-                    </imageView>
-                    <navigationItem key="navigationItem" id="ti7-bi-ASX"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5z2-2C-v9d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1981" y="-9"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LTT-tN-rKu">
@@ -277,13 +317,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sjW-oK-STC"/>
-        <segue reference="nKb-Mr-2B6"/>
+        <segue reference="fgh-MC-DZk"/>
+        <segue reference="gDt-WV-OCh"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="12085707_20944201" width="7730" height="7730"/>
         <image name="LoginBackground.jpeg" width="240" height="236.8800048828125"/>
         <image name="RegisterBackground (1).jpeg" width="258.72000122070312" height="310.79998779296875"/>
+        <image name="RegistrarBackground.jpg" width="6000" height="4000"/>
+        <image name="VisualizarBackground.jpeg" width="491.51998901367188" height="333.1199951171875"/>
         <image name="homescreen.png" width="1600" height="1200"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
