@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 struct NoticiasModelo:Codable {
     var articles: [Noticia]
@@ -72,6 +73,20 @@ extension RESTViewController: UITableViewDelegate, UITableViewDataSource{
         
         return celda
     }
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tablaNoticias.deselectRow(at: indexPath, animated: true)
+        guard let urlMostrar = URL(string: articuloNoticias[indexPath.row].url ?? "") else{
+            return
+        }
+        let VCSS = SFSafariViewController(url: urlMostrar)
+        present(VCSS, animated: true)
+    }
+    
+    
+    
+    
     
         
     }
