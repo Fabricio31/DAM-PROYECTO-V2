@@ -11,10 +11,18 @@
 		72470C0D2AF7218F0042DAB6 /* VisualizarBackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 72470C0C2AF7218F0042DAB6 /* VisualizarBackground.jpeg */; };
 		72470C102AF72E460042DAB6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 72470C0F2AF72E460042DAB6 /* FirebaseFirestore */; };
 		72470C122AF72E460042DAB6 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 72470C112AF72E460042DAB6 /* FirebaseFirestoreSwift-Beta */; };
-		72470C152AF72F590042DAB6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72470C142AF72F590042DAB6 /* HomeView.swift */; };
-		72470C172AF72F810042DAB6 /* LinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72470C162AF72F810042DAB6 /* LinkViewModel.swift */; };
-		72470C1A2AF72FB90042DAB6 /* LinkRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72470C192AF72FB90042DAB6 /* LinkRepository.swift */; };
-		72470C1C2AF72FD50042DAB6 /* LinkDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72470C1B2AF72FD50042DAB6 /* LinkDataSource.swift */; };
+		7287BEC62AFD62FE00394DF5 /* VRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287BEC52AFD62FE00394DF5 /* VRViewController.swift */; };
+		7287BEC82AFD64DD00394DF5 /* VRBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7287BEC72AFD64DD00394DF5 /* VRBackground.jpg */; };
+		7287BECE2AFD6A9100394DF5 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7287BEC92AFD6A9000394DF5 /* 5.png */; };
+		7287BECF2AFD6A9100394DF5 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7287BECA2AFD6A9100394DF5 /* 3.png */; };
+		7287BED02AFD6A9100394DF5 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7287BECB2AFD6A9100394DF5 /* 1.png */; };
+		7287BED12AFD6A9100394DF5 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7287BECC2AFD6A9100394DF5 /* 4.png */; };
+		7287BED22AFD6A9100394DF5 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7287BECD2AFD6A9100394DF5 /* 2.png */; };
+		7287BED42AFD756400394DF5 /* vecteezy_man-hands-holding-smartphone-reading-news-isolated-white_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7287BED32AFD756400394DF5 /* vecteezy_man-hands-holding-smartphone-reading-news-isolated-white_.jpg */; };
+		72902C282B02A94B00B03D59 /* AddStudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72902C272B02A94B00B03D59 /* AddStudentVC.swift */; };
+		72902C2F2B02AC7B00B03D59 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72902C2D2B02AC7B00B03D59 /* Student+CoreDataClass.swift */; };
+		72902C302B02AC7B00B03D59 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72902C2E2B02AC7B00B03D59 /* Student+CoreDataProperties.swift */; };
+		72902C322B02ACB600B03D59 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72902C312B02ACB600B03D59 /* DBManager.swift */; };
 		72E065982AF031C300BA04CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E065972AF031C300BA04CF /* AppDelegate.swift */; };
 		72E0659A2AF031C300BA04CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E065992AF031C300BA04CF /* SceneDelegate.swift */; };
 		72E0659C2AF031C300BA04CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E0659B2AF031C300BA04CF /* ViewController.swift */; };
@@ -37,10 +45,18 @@
 /* Begin PBXFileReference section */
 		72470C0A2AF721870042DAB6 /* RegistrarBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RegistrarBackground.jpg; sourceTree = "<group>"; };
 		72470C0C2AF7218F0042DAB6 /* VisualizarBackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VisualizarBackground.jpeg; sourceTree = "<group>"; };
-		72470C142AF72F590042DAB6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		72470C162AF72F810042DAB6 /* LinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewModel.swift; sourceTree = "<group>"; };
-		72470C192AF72FB90042DAB6 /* LinkRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkRepository.swift; sourceTree = "<group>"; };
-		72470C1B2AF72FD50042DAB6 /* LinkDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkDataSource.swift; sourceTree = "<group>"; };
+		7287BEC52AFD62FE00394DF5 /* VRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRViewController.swift; sourceTree = "<group>"; };
+		7287BEC72AFD64DD00394DF5 /* VRBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VRBackground.jpg; sourceTree = "<group>"; };
+		7287BEC92AFD6A9000394DF5 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		7287BECA2AFD6A9100394DF5 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		7287BECB2AFD6A9100394DF5 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		7287BECC2AFD6A9100394DF5 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		7287BECD2AFD6A9100394DF5 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		7287BED32AFD756400394DF5 /* vecteezy_man-hands-holding-smartphone-reading-news-isolated-white_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vecteezy_man-hands-holding-smartphone-reading-news-isolated-white_.jpg"; sourceTree = "<group>"; };
+		72902C272B02A94B00B03D59 /* AddStudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentVC.swift; sourceTree = "<group>"; };
+		72902C2D2B02AC7B00B03D59 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		72902C2E2B02AC7B00B03D59 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		72902C312B02ACB600B03D59 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		72E065942AF031C300BA04CF /* ProyectoV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E065972AF031C300BA04CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72E065992AF031C300BA04CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,25 +98,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		72470C132AF72ED40042DAB6 /* Links */ = {
-			isa = PBXGroup;
-			children = (
-				72470C142AF72F590042DAB6 /* HomeView.swift */,
-				72470C162AF72F810042DAB6 /* LinkViewModel.swift */,
-				72470C182AF72F970042DAB6 /* Repository */,
-			);
-			path = Links;
-			sourceTree = "<group>";
-		};
-		72470C182AF72F970042DAB6 /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-				72470C192AF72FB90042DAB6 /* LinkRepository.swift */,
-				72470C1B2AF72FD50042DAB6 /* LinkDataSource.swift */,
-			);
-			path = Repository;
-			sourceTree = "<group>";
-		};
 		72E0658B2AF031C300BA04CF = {
 			isa = PBXGroup;
 			children = (
@@ -122,25 +119,36 @@
 		72E065962AF031C300BA04CF /* ProyectoV2 */ = {
 			isa = PBXGroup;
 			children = (
-				72470C132AF72ED40042DAB6 /* Links */,
+				72E065A52AF031C300BA04CF /* LaunchScreen.storyboard */,
+				72E0659D2AF031C300BA04CF /* Main.storyboard */,
+				72E116752AFAD18E001086B3 /* CeldaNoticiaTableViewCell.xib */,
+				72E116742AFAD18E001086B3 /* CeldaNoticiaTableViewCell.swift */,
 				72E065972AF031C300BA04CF /* AppDelegate.swift */,
 				72E065992AF031C300BA04CF /* SceneDelegate.swift */,
-				72E0659B2AF031C300BA04CF /* ViewController.swift */,
-				72E0659D2AF031C300BA04CF /* Main.storyboard */,
-				72E116742AFAD18E001086B3 /* CeldaNoticiaTableViewCell.swift */,
-				72E116752AFAD18E001086B3 /* CeldaNoticiaTableViewCell.xib */,
-				72E116702AFAC650001086B3 /* RESTViewController.swift */,
-				72E065AE2AF0431500BA04CF /* LoginViewController.swift */,
 				72E065B02AF0464D00BA04CF /* CreateAccountViewController.swift */,
+				72E065AE2AF0431500BA04CF /* LoginViewController.swift */,
+				7287BEC52AFD62FE00394DF5 /* VRViewController.swift */,
+				72E116702AFAC650001086B3 /* RESTViewController.swift */,
+				72902C2D2B02AC7B00B03D59 /* Student+CoreDataClass.swift */,
+				72902C2E2B02AC7B00B03D59 /* Student+CoreDataProperties.swift */,
+				72E0659B2AF031C300BA04CF /* ViewController.swift */,
+				72902C272B02A94B00B03D59 /* AddStudentVC.swift */,
+				72902C312B02ACB600B03D59 /* DBManager.swift */,
+				72E065A02AF031C300BA04CF /* ProyectoV2.xcdatamodeld */,
 				72E065A32AF031C300BA04CF /* Assets.xcassets */,
+				7287BED32AFD756400394DF5 /* vecteezy_man-hands-holding-smartphone-reading-news-isolated-white_.jpg */,
+				7287BECB2AFD6A9100394DF5 /* 1.png */,
+				7287BECD2AFD6A9100394DF5 /* 2.png */,
+				7287BECA2AFD6A9100394DF5 /* 3.png */,
+				7287BECC2AFD6A9100394DF5 /* 4.png */,
+				7287BEC92AFD6A9000394DF5 /* 5.png */,
+				7287BEC72AFD64DD00394DF5 /* VRBackground.jpg */,
 				72470C0A2AF721870042DAB6 /* RegistrarBackground.jpg */,
 				72E065BB2AF077E200BA04CF /* LoginBackground.jpeg */,
 				72470C0C2AF7218F0042DAB6 /* VisualizarBackground.jpeg */,
 				72E065B72AF070C500BA04CF /* homescreen.png */,
 				72E065BD2AF0798500BA04CF /* RegisterBackground (1).jpeg */,
-				72E065A52AF031C300BA04CF /* LaunchScreen.storyboard */,
 				72E065A82AF031C300BA04CF /* Info.plist */,
-				72E065A02AF031C300BA04CF /* ProyectoV2.xcdatamodeld */,
 			);
 			path = ProyectoV2;
 			sourceTree = "<group>";
@@ -210,16 +218,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7287BED42AFD756400394DF5 /* vecteezy_man-hands-holding-smartphone-reading-news-isolated-white_.jpg in Resources */,
 				72E065B82AF070C500BA04CF /* homescreen.png in Resources */,
 				72470C0B2AF721870042DAB6 /* RegistrarBackground.jpg in Resources */,
+				7287BEC82AFD64DD00394DF5 /* VRBackground.jpg in Resources */,
+				7287BED12AFD6A9100394DF5 /* 4.png in Resources */,
 				72E065BC2AF077E200BA04CF /* LoginBackground.jpeg in Resources */,
 				72470C0D2AF7218F0042DAB6 /* VisualizarBackground.jpeg in Resources */,
 				72E065A72AF031C300BA04CF /* LaunchScreen.storyboard in Resources */,
 				72E065B32AF0518500BA04CF /* GoogleService-Info.plist in Resources */,
 				72E065A42AF031C300BA04CF /* Assets.xcassets in Resources */,
+				7287BECF2AFD6A9100394DF5 /* 3.png in Resources */,
+				7287BED22AFD6A9100394DF5 /* 2.png in Resources */,
 				72E116772AFAD18E001086B3 /* CeldaNoticiaTableViewCell.xib in Resources */,
+				7287BECE2AFD6A9100394DF5 /* 5.png in Resources */,
 				72E0659F2AF031C300BA04CF /* Main.storyboard in Resources */,
 				72E065BE2AF0798500BA04CF /* RegisterBackground (1).jpeg in Resources */,
+				7287BED02AFD6A9100394DF5 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,18 +245,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72470C172AF72F810042DAB6 /* LinkViewModel.swift in Sources */,
 				72E116762AFAD18E001086B3 /* CeldaNoticiaTableViewCell.swift in Sources */,
 				72E065B12AF0464D00BA04CF /* CreateAccountViewController.swift in Sources */,
-				72470C1C2AF72FD50042DAB6 /* LinkDataSource.swift in Sources */,
 				72E116712AFAC650001086B3 /* RESTViewController.swift in Sources */,
-				72470C152AF72F590042DAB6 /* HomeView.swift in Sources */,
+				72902C322B02ACB600B03D59 /* DBManager.swift in Sources */,
 				72E065A22AF031C300BA04CF /* ProyectoV2.xcdatamodeld in Sources */,
 				72E0659C2AF031C300BA04CF /* ViewController.swift in Sources */,
-				72470C1A2AF72FB90042DAB6 /* LinkRepository.swift in Sources */,
+				72902C282B02A94B00B03D59 /* AddStudentVC.swift in Sources */,
+				72902C302B02AC7B00B03D59 /* Student+CoreDataProperties.swift in Sources */,
 				72E065982AF031C300BA04CF /* AppDelegate.swift in Sources */,
+				72902C2F2B02AC7B00B03D59 /* Student+CoreDataClass.swift in Sources */,
 				72E065AF2AF0431500BA04CF /* LoginViewController.swift in Sources */,
 				72E0659A2AF031C300BA04CF /* SceneDelegate.swift in Sources */,
+				7287BEC62AFD62FE00394DF5 /* VRViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

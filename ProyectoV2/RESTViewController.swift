@@ -31,6 +31,7 @@ class RESTViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Noticias Cibertec"
         //Registrar la celda personalizada
         tablaNoticias.register(UINib(nibName: "CeldaNoticiaTableViewCell", bundle: nil), forCellReuseIdentifier: "celdaNoticia")
         
@@ -40,7 +41,7 @@ class RESTViewController: UIViewController {
         buscarNoticias()
     }
     func buscarNoticias(){
-        	let urlString = "https://newsapi.org/v2/everything?q=apple&from=2023-11-06&to=2023-11-06&sortBy=popularity&apiKey=dc03f55f7b544681a582e8f2096354a1"
+        	let urlString = "https://api.mocki.io/v2/5024f379/api-cibertec/"
         if let url = URL(string: urlString ){
             if let data = try? Data(contentsOf: url){
                 let decodificador = JSONDecoder()
