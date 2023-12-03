@@ -72,7 +72,7 @@
         <!--Login View Controller-->
         <scene sceneID="vWK-x7-NqC">
             <objects>
-                <viewController id="DqU-6T-nNU" customClass="LoginViewController" customModule="ProyectoV2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="DqU-6T-nNU" customClass="LoginViewController" customModule="ProyectoV2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WYQ-UC-GrN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -219,6 +219,14 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2iP-E6-QVZ">
+                                <rect key="frame" x="340" y="98" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Salir"/>
+                                <connections>
+                                    <action selector="botonCerrarSesionTocado:" destination="KZI-wx-u2I" eventType="touchUpInside" id="R6N-4F-RV4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="139-4B-Cc5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -234,7 +242,7 @@
             </objects>
             <point key="canvasLocation" x="1949.2753623188407" y="-64.285714285714278"/>
         </scene>
-        <!--Registrar Nueva Noticia-->
+        <!--Mantenimiento de Noticias-->
         <scene sceneID="9oY-aW-krQ">
             <objects>
                 <viewController id="5Vl-XC-Wlv" customClass="ViewController" customModule="ProyectoV2" customModuleProvider="target" sceneMemberID="viewController">
@@ -281,7 +289,7 @@
                         <viewLayoutGuide key="safeArea" id="6i7-r0-BeP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Registrar Nueva Noticia" id="so7-CS-cbL">
+                    <navigationItem key="navigationItem" title="Mantenimiento de Noticias" id="so7-CS-cbL">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="TKb-DN-2r4">
                             <connections>
                                 <segue destination="ome-D7-Wip" kind="show" id="HXm-Q6-OLW"/>
@@ -296,7 +304,7 @@
             </objects>
             <point key="canvasLocation" x="2724.6376811594205" y="268.52678571428572"/>
         </scene>
-        <!--Registrar-->
+        <!--Registrar Nueva Noticia-->
         <scene sceneID="0LC-QY-gZV">
             <objects>
                 <viewController id="ome-D7-Wip" customClass="AddStudentVC" customModule="ProyectoV2" customModuleProvider="target" sceneMemberID="viewController">
@@ -304,8 +312,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="DESCRIPCION" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WBB-CF-VeM">
-                                <rect key="frame" x="20" y="179" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Descripcion de Noticia" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WBB-CF-VeM">
+                                <rect key="frame" x="14" y="244" width="374" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -321,14 +329,35 @@
                                     <action selector="onClickAdd:" destination="ome-D7-Wip" eventType="touchUpInside" id="Oen-Wt-Wag"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="URL DE NOTICIA" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RJ8-pg-Yma">
-                                <rect key="frame" x="20" y="228" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="URL de Noticia" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RJ8-pg-Yma">
+                                <rect key="frame" x="14" y="323" width="374" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="TITULO DE NOTICIA" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gHc-pl-0Tk">
-                                <rect key="frame" x="20" y="130" width="374" height="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Titulo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46u-WE-Zgd">
+                                <rect key="frame" x="31" y="136" width="48" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descripcion:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UjP-KO-rn2">
+                                <rect key="frame" x="31" y="215" width="96" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="URL:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHI-cB-rnJ">
+                                <rect key="frame" x="31" y="286" width="37" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Titulo de Noticia" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gHc-pl-0Tk">
+                                <rect key="frame" x="14" y="165" width="374" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -337,7 +366,7 @@
                         <viewLayoutGuide key="safeArea" id="0gN-PE-50t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Registrar" id="R2B-Zs-sDn"/>
+                    <navigationItem key="navigationItem" title="Registrar Nueva Noticia" id="R2B-Zs-sDn"/>
                     <connections>
                         <outlet property="txtName" destination="gHc-pl-0Tk" id="yil-Pg-RWs"/>
                         <outlet property="txtSchool" destination="RJ8-pg-Yma" id="oLO-Fv-QAK"/>
@@ -505,7 +534,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="fgh-MC-DZk"/>
-        <segue reference="5ck-7B-eVv"/>
+        <segue reference="gDt-WV-OCh"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="LoginBackground.jpeg" width="240" height="236.8800048828125"/>
